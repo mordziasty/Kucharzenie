@@ -20,7 +20,7 @@ import org.androidannotations.annotations.ViewById;
 import org.springframework.util.StringUtils;
 
 @EActivity(R.layout.activity_addkoment)
-public class Komentarz extends ActionBarActivity {
+public class KomentarzAct extends ActionBarActivity {
     @Extra
     Przepis recipe;
     @Extra

@@ -1,7 +1,6 @@
 package com.example.student7.kucharzenie;
 
         import com.example.student7.kucharzenie.data.Komentarz;
-        import com.example.student7.kucharzenie.data.ListaKomentarzy;
         import com.example.student7.kucharzenie.data.Przepis;
         import com.example.student7.kucharzenie.data.User;
 
@@ -14,7 +13,7 @@ package com.example.student7.kucharzenie;
 @EBean
 public class RestBackgroundDodajKoment {
     @RootContext
-    Komentarz activity; //activity with listview
+    KomentarzAct activity; //activity with listview
 
     @RestService
     KucharzenieRestclient restClient; //use that cool interface

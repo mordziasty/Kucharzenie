@@ -9,9 +9,7 @@ package com.example.student7.kucharzenie;
         import android.widget.Toast;
 
         import com.example.student7.kucharzenie.adapter.ListaKomentarzyAdapter;
-        import com.example.student7.kucharzenie.data.Komentarz;
         import com.example.student7.kucharzenie.data.ListaKomentarzy;
-        import com.example.student7.kucharzenie.data.Like;
         import com.example.student7.kucharzenie.data.ListaLike;
         import com.example.student7.kucharzenie.data.Przepis;
         import com.example.student7.kucharzenie.data.User;
@@ -23,10 +21,6 @@ package com.example.student7.kucharzenie;
         import org.androidannotations.annotations.Extra;
         import org.androidannotations.annotations.NonConfigurationInstance;
         import org.androidannotations.annotations.ViewById;
-
-        import java.util.Iterator;
-        import java.util.List;
-        import java.util.ListIterator;
 
 @EActivity(R.layout.activity_thatrecepta)
 public class SelectedView extends ActionBarActivity {
@@ -142,7 +136,7 @@ public class SelectedView extends ActionBarActivity {
             bundle.putSerializable("user",user);
 
             //go to commentview activity with packed bundle
-            Komentarz_.intent(this).bundle(bundle).start();
+            KomentarzAct_.intent(this).bundle(bundle).start();
         }
     }
 

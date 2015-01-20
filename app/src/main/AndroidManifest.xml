@@ -14,7 +14,7 @@
                 <action android:name="android.intent.action.MAIN" />
                 <activity android:name=".Login_" />
                 <activity android:name=".SelectedView_" />
-                <activity android:name=".Komentarz_" />
+                <activity android:name=".KomentarzAct_" />
                 <activity android:name=".PrzepisItem_" />
 
 
